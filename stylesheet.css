@@ -11,6 +11,7 @@ body {
   height: 2em;
   display: flex;
   justify-content: center;
+  position: fixed;
 }
 .link {
   font-size: 16px;
@@ -32,7 +33,7 @@ body {
   cursor: pointer;
   opacity: 0.3;
 }
-.backGround-phone {
+.backGround-phone-pro {
     background: url("luiz-felipe-gNzWVfxZ9J0-unsplash.jpg");
 background-size: 100% 150%;
 background-repeat: no-repeat;
@@ -48,6 +49,10 @@ background-repeat: no-repeat;
     color: white;
     font-family: 'Roboto Slab', serif;
 }
+.black {
+    color: black;
+}
+
 .features-phone > p {
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -69,4 +74,71 @@ background-repeat: no-repeat;
     margin: 0px 0px 0px 10px;
     /* border: 2px solid red; */
 }
+
+.backGround-phone-reg {
+    background: url("sara-kurfess-KegwEO8r29E-unsplash.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+ height: 550px;
+    width: 100vw;
+}
+.background-watch {
+    background: url("polly-alexandra-iu2VZLlzf1o-unsplash.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+ height: 550px;
+    width: 100vw;
+}
+.features-watch {
+    padding-top: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+.series-watch {
+    margin-top: 0px;
+    font-size: 16px;
+    letter-spacing: 2px;
+   font-weight: bold;
+    color: red;
+}
+ .watch-indent{
+    text-indent: 16px;
+}
+.size {
+    margin: 2px;
+    font-size: 40px;
+}
+.font-size {
+    font-size: 2em;
+    /* make sure to re-size the font in media quaries for phone screens */
+}
+.master-six {
+    display:flex;
+    flex-direction: column;
+}
+.row-one {
+    display: flex;
+    flex-direction: row;
+    
+}
+.background-watchstudio {
+    background: url(polly-alexandra-iu2VZLlzf1o-unsplash.jpg);
+    height: 500px;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+
+
+
 
