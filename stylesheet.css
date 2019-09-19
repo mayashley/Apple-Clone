@@ -34,111 +34,224 @@ body {
   opacity: 0.3;
 }
 .backGround-phone-pro {
-    background: url("luiz-felipe-gNzWVfxZ9J0-unsplash.jpg");
-background-size: 100% 150%;
-background-repeat: no-repeat;
- height: 550px;
-    width: 100vw;
+  background: url("luiz-felipe-gNzWVfxZ9J0-unsplash.jpg");
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100vw;
 }
 .features-phone {
-    padding-top: 40px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 0;
-    color: white;
-    font-family: 'Roboto Slab', serif;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0;
+  color: white;
+  font-family: "Roboto Slab", serif;
 }
 .black {
-    color: black;
+  color: black;
 }
 
 .features-phone > p {
-    font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 .learn-order {
-    display:flex;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 .learn-order > a {
-    padding: 12px;
-    color: rgb(0, 183, 255);
-    text-decoration: none;
-    /* border: 2px solid green; */
+  padding: 12px;
+  color: rgb(0, 183, 255);
+  text-decoration: none;
+  /* border: 2px solid green; */
 }
 .learn-order > a:hover {
-    text-decoration-line: underline;
+  text-decoration-line: underline;
 }
- .arrow {
-    margin: 0px 0px 0px 10px;
-    /* border: 2px solid red; */
+.arrow {
+  margin: 0px 0px 0px 10px;
+  /* border: 2px solid red; */
 }
 
 .backGround-phone-reg {
-    background: url("sara-kurfess-KegwEO8r29E-unsplash.jpg");
-background-size: 100% 100%;
-background-repeat: no-repeat;
- height: 550px;
-    width: 100vw;
+  background: url("sara-kurfess-KegwEO8r29E-unsplash.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100vw;
 }
 .background-watch {
-    background: url("polly-alexandra-iu2VZLlzf1o-unsplash.jpg");
-background-size: 100% 100%;
-background-repeat: no-repeat;
- height: 550px;
-    width: 100vw;
+  background: url("polly-alexandra-iu2VZLlzf1o-unsplash.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100vw;
 }
 .features-watch {
-    padding-top: 40px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 0;
-    color: black;
-    font-family: 'Roboto Slab', serif;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0;
+  color: black;
+  font-family: "Roboto Slab", serif;
 }
 
 .series-watch {
-    margin-top: 0px;
-    font-size: 16px;
-    letter-spacing: 2px;
-   font-weight: bold;
-    color: red;
+  margin-top: 0px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: red;
 }
- .watch-indent{
-    text-indent: 16px;
+.watch-indent {
+  text-indent: 16px;
 }
 .size {
-    margin: 2px;
-    font-size: 40px;
+  margin: 2px;
+  font-size: 40px;
 }
 .font-size {
-    font-size: 2em;
-    /* make sure to re-size the font in media quaries for phone screens */
+  font-size: 2em;
+  /* make sure to re-size the font in media quaries for phone screens */
 }
 .master-six {
-    display:flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
 }
-.row-one {
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.background-squares {
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px;
+}
+.watch {
+  background: url("luke-chesser-rCOWMC8qf8A-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ipad {
+  background: url("henry-ascroft-7OFnb7NOvjw-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card {
+  background: url("melvin-thambi-8U9CgUVan4M-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fifth {
+  background: url("victor-lugassy-y0kAUjL_RhQ-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tv {
+  background: url("ash-edmonds-LHlC2sl0Zxs-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.arcade {
+  background: url("patrick-schneider-87oz2SoV9Ug-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bottom-trade-info > p {
+  margin: 1% 20% 0 20%;
+  font-size: 10px;
+}
+.bottom-trade-info > p > a {
+    text-decoration: none;
+    color: rgb(0, 183, 255)
+}
+.bottom-trade-info > p > a:hover {
+    text-decoration: underline;
+}
+/* .bottom-trade-info > a {
+    text-decoration: none;
+    font-size: 10px;
+    border-right: 1px solid rgba(31, 31, 31, 0.897);
+} */
+/* .bottom-trade-info > a:last-child{
+    border-right: none;
+} */
+.bottom-trade-info > a:hover {
+    text-decoration: underline;
+}
+.line {
+  display: block;
+  margin: 1% 20% 0 20%;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.add-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgba(48, 48, 48, 0.897);
+  margin: 0;
+}
+li > a:hover {
+  color: rgba(14, 14, 14, 0.897);
+  text-decoration: underline;
+}
+
+.bot-rows {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.bot-rows > p {
+  /* border: 2px solid red; */
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(31, 31, 31, 0.897);
+  margin: 6px 0;
+}
+.copyright {
     display: flex;
-    flex-direction: row;
-    
+    justify-content: space-between;
+  font-size: 10px;
+  margin: 1% 20% 0 20%;
 }
-.background-watchstudio {
-    background: url(polly-alexandra-iu2VZLlzf1o-unsplash.jpg);
-    height: 500px;
-    width: 50%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    
+.policy > a {
+    text-decoration: none;
+    font-size: 10px;
+    border-right: 1px solid rgba(31, 31, 31, 0.897);
+  padding: 0 4px;
+}
+.policy > a:last-child{
+    border-right: none;
 }
 
-
-
-
-
-
-
+  .copyright > p {
+    margin: 0;
+    padding: 0;
+  }
+ 
