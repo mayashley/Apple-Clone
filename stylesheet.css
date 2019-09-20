@@ -1,11 +1,11 @@
 body {
-  /* border: 2px green; */
+ 
   margin: 0;
   background-color: white;
 }
 
 .container-nav {
-  /* border: 2px solid yellow; */
+  
   background-color: rgba(48, 48, 48, 0.897);
   width: 100vw;
   height: 2em;
@@ -15,7 +15,6 @@ body {
 }
 .link {
   font-size: 16px;
-  /* border: 2px solid purple; */
   margin: 0 2em;
   display: flex;
   align-items: center;
@@ -50,7 +49,7 @@ body {
   font-family: "Roboto Slab", serif;
 }
 .black {
-  color: black;
+  color: white;
 }
 
 .features-phone > p {
@@ -63,29 +62,31 @@ body {
 }
 .learn-order > a {
   padding: 12px;
-  color: rgb(0, 183, 255);
+  color: rgb(3, 103, 170);
   text-decoration: none;
-  /* border: 2px solid green; */
+ 
 }
 .learn-order > a:hover {
   text-decoration-line: underline;
 }
 .arrow {
   margin: 0px 0px 0px 10px;
-  /* border: 2px solid red; */
+ 
 }
 
 .backGround-phone-reg {
-  background: url("sara-kurfess-KegwEO8r29E-unsplash.jpg");
-  background-size: 100% 100%;
+  background: url("matteo-fusco-1giBTF3G4EE-unsplash.jpg");
+  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: center;
   height: 550px;
   width: 100vw;
 }
 .background-watch {
-  background: url("polly-alexandra-iu2VZLlzf1o-unsplash.jpg");
-  background-size: 100% 100%;
+  background: url("david-svihovec-5qMN7iXbUsk-unsplash.jpg");
+  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: center;
   height: 550px;
   width: 100vw;
 }
@@ -115,7 +116,7 @@ body {
 }
 .font-size {
   font-size: 2em;
-  /* make sure to re-size the font in media quaries for phone screens */
+  
 }
 .master-six {
   display: flex;
@@ -133,6 +134,9 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 4px;
+  padding-top: 40px;
+  font-family: "Roboto Slab", serif;
+  line-height: 0;
 }
 .watch {
   background: url("luke-chesser-rCOWMC8qf8A-unsplash.jpg");
@@ -141,34 +145,45 @@ body {
   background-position: center;
 }
 .ipad {
-  background: url("henry-ascroft-7OFnb7NOvjw-unsplash.jpg");
+  background: url("eleven-x-t5Q8c72qCwI-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: white;
+}
+
+.fifth {
+  background: url("brad-smith-xygKeG0UZJw-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
 }
 .card {
-  background: url("melvin-thambi-8U9CgUVan4M-unsplash.jpg");
-  background-size: cover;
+  background: url("clean-apple-card-art-front-back.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-}
-.fifth {
-  background: url("victor-lugassy-y0kAUjL_RhQ-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 .tv {
   background: url("ash-edmonds-LHlC2sl0Zxs-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: white;
+}
+.bottom-order > a {
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+ 
 }
 .arcade {
-  background: url("patrick-schneider-87oz2SoV9Ug-unsplash.jpg");
+  background: url("lucas-benjamin-wQLAGv4_OYs-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: white;
 }
 
 .bottom-trade-info > p {
@@ -176,11 +191,11 @@ body {
   font-size: 10px;
 }
 .bottom-trade-info > p > a {
-    text-decoration: none;
-    color: rgb(0, 183, 255)
+  text-decoration: none;
+  color: rgb(0, 183, 255);
 }
 .bottom-trade-info > p > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 /* .bottom-trade-info > a {
     text-decoration: none;
@@ -191,7 +206,7 @@ body {
     border-right: none;
 } */
 .bottom-trade-info > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .line {
   display: block;
@@ -235,23 +250,23 @@ li > a:hover {
   margin: 6px 0;
 }
 .copyright {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   font-size: 10px;
   margin: 1% 20% 0 20%;
 }
 .policy > a {
-    text-decoration: none;
-    font-size: 10px;
-    border-right: 1px solid rgba(31, 31, 31, 0.897);
+  text-decoration: none;
+  font-size: 10px;
+  border-right: 1px solid rgba(31, 31, 31, 0.897);
   padding: 0 4px;
+  color: rgba(31, 31, 31, 0.897);
 }
-.policy > a:last-child{
-    border-right: none;
+.policy > a:last-child {
+  border-right: none;
 }
 
-  .copyright > p {
-    margin: 0;
-    padding: 0;
-  }
- 
+.copyright > p {
+  margin: 0;
+  padding: 0;
+}
