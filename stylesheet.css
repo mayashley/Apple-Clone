@@ -5,7 +5,6 @@ body {
 }
 
 .container-nav {
-  
   background-color: rgba(48, 48, 48, 0.897);
   width: 100vw;
   height: 2em;
@@ -76,7 +75,7 @@ body {
 
 .backGround-phone-reg {
   background: url("matteo-fusco-1giBTF3G4EE-unsplash.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 550px;
@@ -84,7 +83,7 @@ body {
 }
 .background-watch {
   background: url("david-svihovec-5qMN7iXbUsk-unsplash.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 550px;
@@ -161,7 +160,7 @@ body {
 }
 .card {
   background: url("clean-apple-card-art-front-back.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -270,3 +269,4 @@ li > a:hover {
   margin: 0;
   padding: 0;
 }
+
