@@ -21,7 +21,7 @@ body {
   position: fixed;
 }
 .top {
- border-bottom: solid 1px gray;
+ border-bottom: solid 1px rgba(31, 31, 31, 0.897);
 }
 .bottom { 
   /* border: 2px yellow solid; */
@@ -29,6 +29,7 @@ body {
 .apple-row {
   display: flex;
   justify-content: space-between;
+  margin: 1%;
 }
 .top input {
   width: 80%;
@@ -36,7 +37,8 @@ body {
   background-color:rgba(48, 48, 48, 0.897);
   border: none;
   border-radius: 2px;
-  font-size: 24px;
+  font-size: 18px;
+  padding: 8px;
   color: white;
 }
 .fullScreenMenu {
@@ -69,6 +71,11 @@ body {
 .fullLink:hover {
   cursor: pointer;
   opacity: 0.3;
+}
+.fullLine {
+  margin: 0 8% 0 8%;
+  border: solid 1px rgba(31, 31, 31, 0.897);
+ 
 }
 .link {
   font-size: 16px;
@@ -247,7 +254,7 @@ body {
 }
 .bottom-trade-info > p > a {
   text-decoration: none;
-  color: rgb(0, 183, 255);
+  color: rgb(3, 103, 170);
 }
 .bottom-trade-info > p > a:hover {
   text-decoration: underline;
@@ -350,6 +357,18 @@ li > a:hover {
     width: 100%;
     margin: 0;
   }
+  .bottom-trade-info > p {
+    margin: 1% 4% 0 4%;
+    font-size: 12px;
+  }
+  .line {
+    margin: 1% 4% 0 4%;
+  }
+  .copyright {
+    font-size: 12px;
+    margin: 1% 4% 2% 4%;
+    flex-direction: column;
+  }
 }
 @media only screen and (min-width: 700px) {
   .media-nav {
@@ -358,4 +377,5 @@ li > a:hover {
   .container-nav {
     display: flex;
   }
+ 
 }
