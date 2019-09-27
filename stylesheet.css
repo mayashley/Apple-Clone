@@ -249,8 +249,8 @@ body {
 }
 
 .bottom-trade-info > p {
-  margin: 1% 20% 0 20%;
-  font-size: 10px;
+  margin: 1% 15% 0 15%;
+  font-size: 12px;
 }
 .bottom-trade-info > p > a {
   text-decoration: none;
@@ -272,7 +272,7 @@ body {
 }
 .line {
   display: block;
-  margin: 1% 20% 0 20%;
+  margin: 1% 15% 0 15%;
   border-style: inset;
   border-width: 1px;
 }
@@ -306,7 +306,7 @@ li > a:hover {
 }
 .bot-rows > p {
   /* border: 2px solid red; */
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   color: rgba(31, 31, 31, 0.897);
   margin: 6px 0;
@@ -314,12 +314,12 @@ li > a:hover {
 .copyright {
   display: flex;
   justify-content: space-between;
-  font-size: 10px;
-  margin: 1% 20% 0 20%;
+  font-size: 12px;
+  margin: 1% 15% 0 15%;
 }
 .policy > a {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   border-right: 1px solid rgba(31, 31, 31, 0.897);
   padding: 0 4px;
   color: rgba(31, 31, 31, 0.897);
@@ -359,13 +359,12 @@ li > a:hover {
   }
   .bottom-trade-info > p {
     margin: 1% 4% 0 4%;
-    font-size: 12px;
+  
   }
   .line {
     margin: 1% 4% 0 4%;
   }
   .copyright {
-    font-size: 12px;
     margin: 1% 4% 2% 4%;
     flex-direction: column;
   }
