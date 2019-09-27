@@ -1,5 +1,4 @@
 body {
- 
   margin: 0;
   background-color: white;
 }
@@ -11,6 +10,65 @@ body {
   display: flex;
   justify-content: center;
   position: fixed;
+  display: none;
+}
+.media-nav {
+  background-color: rgba(48, 48, 48, 0.897);
+  width: 100vw;
+  height: 2em;
+  display: none;
+  justify-content: space-between;
+  position: fixed;
+}
+.top {
+ border-bottom: solid 1px gray;
+}
+.bottom { 
+  /* border: 2px yellow solid; */
+}
+.apple-row {
+  display: flex;
+  justify-content: space-between;
+}
+.top input {
+  width: 80%;
+  margin: 2% 8%;
+  background-color:rgba(48, 48, 48, 0.897);
+  border: none;
+  border-radius: 2px;
+  font-size: 24px;
+  color: white;
+}
+.fullScreenMenu {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;  
+}
+.fullLink {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.959);
+}
+.fullbar {
+  margin-left: 8px;
+}
+
+.fullLink > a {
+  font-size: 22px;
+  font-weight: lighter;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgba(255, 255, 255, 0.959);
+  text-decoration: none;
+  margin: 2% 8%;
+  /* add in the border-bottom tomorrow */
+}
+.fullLink:hover {
+  cursor: pointer;
+  opacity: 0.3;
 }
 .link {
   font-size: 16px;
@@ -46,7 +104,7 @@ body {
   line-height: 0;
   color: white;
   font-family: "Roboto Slab", serif;
- font-size: 1em;
+  font-size: 1em;
 }
 .black {
   color: white;
@@ -59,20 +117,17 @@ body {
   display: flex;
   align-items: center;
   margin-top: 20px;
-
 }
 .learn-order > a {
   padding: 12px;
   color: rgb(3, 103, 170);
   text-decoration: none;
- 
 }
 .learn-order > a:hover {
   text-decoration-line: underline;
 }
 .arrow {
   margin: 0px 0px 0px 10px;
- 
 }
 
 .backGround-phone-reg {
@@ -117,7 +172,6 @@ body {
 }
 .font-size {
   font-size: 2em;
-  
 }
 .master-six {
   display: flex;
@@ -178,7 +232,6 @@ body {
   padding: 12px;
   color: white;
   text-decoration: none;
- 
 }
 .arcade {
   background: url("lucas-benjamin-wQLAGv4_OYs-unsplash.jpg");
@@ -272,34 +325,37 @@ li > a:hover {
   margin: 0;
   padding: 0;
 }
-@media only screen and (max-width: 800px) and (min-width: 370px ) {
+
+@media only screen and (max-width: 701px) {
   .features-phone {
     font-size: .5em;
   }
-.learn-order {
-font-size: 14px;
-}
+  .learn-order {
+    font-size: 14px;
+  }
 
-.features-phone > p {
-  font-size: 14px;
+  .features-phone > p {
+    font-size: 14px;
+  }
+  .media-nav {
+    display: flex;
+  }
+  .container-nav {
+    display: none;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .background-squares {
+    width: 100%;
+    margin: 0;
+  }
 }
-.link {
-  font-size: 14px;
-  margin: 0 7px;
+@media only screen and (min-width: 700px) {
+  .media-nav {
+    display: none;
+  }
+  .container-nav {
+    display: flex;
+  }
 }
-.link > a {
-  font-size: 16px;
-}
-/* .master-six {
-  padding: 2px;
-  font-size: .5em;
-} */
-.row {
-  flex-direction: column;
-}
-.background-squares {
-  width: 100%;
-  margin: 0;
-}
-}
-
