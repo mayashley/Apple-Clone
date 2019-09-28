@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Apple-Clone</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css" />
@@ -73,7 +73,7 @@
             </div>
             <div></div>
           </div>
-          <input type="text" placeholder="Search apple.com"/>
+          <input type="text" placeholder="Search apple.com" />
         </div>
         <!-- add the search icon to search bar -->
         <div class="bottom">
@@ -266,7 +266,7 @@
     </div>
 
     <div class="line"></div>
-    <div class="add-services">
+    <!-- <div class="add-services">
       <div class="bot-rows">
         <p>Shop and Learn</p>
         <ul>
@@ -295,6 +295,7 @@
           <li><a href="#">iCloud</a></li>
           <li><a href="#">AirPods</a></li>
         </ul>
+
         <p>Account</p>
         <ul>
           <li><a href="#">Manage your Apple ID</a></li>
@@ -331,6 +332,7 @@
           <li><a href="#">Apple and Education</a></li>
           <li><a href="#">Shop for College</a></li>
         </ul>
+
         <p>For Healthcare</p>
         <ul>
           <li><a href="#">Apple in Healthcare</a></li>
@@ -364,7 +366,167 @@
           <li><a href="#">Contact Apple</a></li>
         </ul>
       </div>
+    </div> -->
+    <!-- reduced screen apple iems list -->
+    <div id="shopList" class="shopList reducedList" onclick="toggleList('shopItems')">
+      <a>Shop and Learn<i class="fas fa-plus"></i></a>
     </div>
+    <div id="shopItems" class="shopItems items">
+      <ul>
+        <li><a href="#">Mac</a></li>
+        <li><a href="#">iPad</a></li>
+        <li><a href="#">iPhone</a></li>
+        <li><a href="#">Watch</a></li>
+        <li><a href="#">Tv</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">AirPods</a></li>
+        <li><a href="#">HomePod</a></li>
+        <li><a href="#">iPod touch</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Gift Cards</a></li>
+      </ul>
+    </div>
+
+
+
+
+    <div id="serviceList" class="serviceList reducedList" onclick="toggleList('serviceItems')">
+      <a>Services<i class="fas fa-plus"></i></a>
+    </div>
+    <div id=serviceItems class="serviceItems items">
+      <ul>
+        <li><a href="#">Apple Music</a></li>
+        <li><a href="#">Apple News+</a></li>
+        <li><a href="#">Apple TV+</a></li>
+        <li><a href="#">Apple Arcade</a></li>
+        <li><a href="#">Apple Card</a></li>
+        <li><a href="#">iCloud</a></li>
+        <li><a href="#">AirPods</a></li>
+      </ul>
+    </div>
+
+
+
+
+    <div id="accountList" class="accountList reducedList" onclick="toggleList('accountItems')">
+      <a>Account<i class="fas fa-plus"></i></a>
+    </div>
+    <div id="accountItems" class="accountItems items">
+      <ul>
+        <li><a href="#">Manage your Apple ID</a></li>
+        <li><a href="#">Apple Store Account</a></li>
+        <li><a href="#">iCloud.com</a></li>
+      </ul>
+    </div>
+
+
+
+
+    <div id="storeList" class="storeList reducedList" onclick="toggleList('storeItems')">
+      <a>Apple Store<i class="fas fa-plus"></i></a>
+    </div>
+    <div id="storeItems" class="storeItems items">
+      <ul>
+        <li><a href="#">Find a Store</a></li>
+        <li><a href="#">Genius Bar</a></li>
+        <li><a href="#">Today at Apple</a></li>
+        <li><a href="#">Apple Camp</a></li>
+        <li><a href="#">Field Trip</a></li>
+        <li><a href="#">Apple Store App</a></li>
+        <li><a href="#">Refurbished and Clearance</a></li>
+        <li><a href="#">Financing</a></li>
+        <li><a href="#">Apple Trade In</a></li>
+        <li><a href="#">Order Status</a></li>
+        <li><a href="#">Shopping Help</a></li>
+      </ul>
+    </div>
+
+
+
+
+    <div id="businessList" class="businessList reducedList" onclick="toggleList('businessItems')">
+      <a>For Business<i class="fas fa-plus"></i></a>
+    </div>
+    <div id="businessItems" class="businessItems items">
+      <ul>
+        <li><a href="#">Apple and Business</a></li>
+        <li><a href="#">Shop for Business</a></li>
+      </ul>
+    </div>
+
+
+    
+
+<div id="eduList" class="eduList reducedList" onclick="toggleList('eduItems')">
+      <a>For Education<i class="fas fa-plus"></i></a>
+    </div>
+    <div id="eduItems" class="eduItems items">
+      <ul>
+        <li><a href="#">Apple and Education</a></li>
+        <li><a href="#">Shop for College</a></li>
+      </ul>
+    </div>
+    
+<div id="healthList" class="healthList reducedList" onclick="toggleList('healthItems')">
+    <a>For Healthcare<i class="fas fa-plus"></i></a>
+  </div>
+  <div id="healthItems" class="healthItems items">
+    <ul>
+      <li><a href="#">Apple in Healthcare</a></li>
+      <li><a href="#">Health on Apple Watch</a></li>
+      <li><a href="#">Health Records on iPhone</a></li>
+    </ul>
+  </div>
+
+
+<div id="govList" class="govList reducedList" onclick="toggleList('govItems')">
+    <a>For Government<i class="fas fa-plus"></i></a>
+  </div>
+  <div id="govItems" class="govItems items">
+    <ul>
+      <li><a href="#">Shop for Government</a></li>
+      <li><a href="#">Shop for Veterans and Military</a></li>
+    </ul>
+  </div>
+  
+
+
+
+
+  <div id="valuesList" class="valuesList reducedList" onclick="toggleList('valuesItems')">
+    <a>Apple Values<i class="fas fa-plus"></i></a>
+  </div>
+  <div id="valuesItems" class="valuesItems items">
+    <ul>
+      <li><a href="#">Accessibility</a></li>
+      <li><a href="#">Education</a></li>
+      <li><a href="#">Enviornment</a></li>
+      <li><a href="#">Inclusion and Diversity</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Supplier Responsibility</a></li>
+    </ul>
+  </div>
+
+
+<div id="aboutList" class="aboutList reducedList" onclick="toggleList('aboutItems')">
+    <a>About Apple<i class="fas fa-plus"></i></a>
+  </div>
+  <div id="aboutItems" class="aboutItems items">
+    <ul>
+      <li><a href="#">Newsroom</a></li>
+      <li><a href="#">Apple Leadership</a></li>
+      <li><a href="#">Job Opportunities</a></li>
+      <li><a href="#">Investors</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Contact Apple</a></li>
+    </ul>
+  </div>
+  
+
+
+
+
+
     <div class="bottom-trade-info">
       <p>
         More ways to shop: <a href="#">Find anApple Store</a> or

@@ -332,6 +332,21 @@ li > a:hover {
   margin: 0;
   padding: 0;
 }
+.reducedList > a {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin: 10px 20px;
+  width: 90%;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(31, 31, 31, 0.897);
+}
+.items {
+  display: none;
+}
+
+
+
 
 @media only screen and (max-width: 701px) {
   .features-phone {
