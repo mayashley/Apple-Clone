@@ -23,36 +23,65 @@ let aboutOpen = false;
 function toggleList(listId) {
   const menuList = document.getElementById(listId);
   const openValue = getState(listId);
+
+  console.log(openValue);
   if (openValue) {
     menuList.style.display = "none";
   } else {
     menuList.style.display = "flex";
   }
-  shopOpen = !shopOpen;
-  console.log(listId);
+  toggleState(listId);
+  // shopOpen = !shopOpen;
+  // console.log(listId);
 }
-function getState() {
-  switch (true) {
+
+function getState(listId) {
+  console.log('getState', listId)
+  switch (listId) {
     case "shopItems":
       return shopOpen;
     case "serviceItems":
-        return serviceOpen;
-        case "accountItems":
-            return accountOpen;
-            case "storeItems":
-                return storeOpen;
-                case "businessItems":
-                    return businessOpen;
-                    case "eduItems":
-                        return eduOpen;
-                        case "healthItems":
-                            return healthOpen;
-                            case "govItems":
-                                return govOpen;
-                                case "valuesItems":
-                                    return valuesOpen;
-                                    case "aboutItems":
-                                        return aboutOpen;
+      return serviceOpen;
+    case "accountItems":
+      return accountOpen;
+    case "storeItems":
+      return storeOpen;
+    case "businessItems":
+      return businessOpen;
+    case "eduItems":
+      return eduOpen;
+    case "healthItems":
+      return healthOpen;
+    case "govItems":
+      return govOpen;
+    case "valuesItems":
+      return valuesOpen;
+    case "aboutItems":
+      return aboutOpen;
   }
 }
-function toggleState() {}
+
+function toggleState(listId) {
+  switch (listId) {
+    case "shopItems":
+      shopOpen = !shopOpen;
+    case "serviceItems":
+      serviceOpen = !serviceOpen;
+    case "accountItems":
+      accountOpen = !accountOpen;
+    case "storeItems":
+       storeOpen = !storeOpen;
+    case "businessItems":
+      businessOpen = !businessOpen;
+    case "eduItems":
+       eduOpen = !eduOpen;
+    case "healthItems":
+       healthOpen = !healthOpen;
+    case "govItems":
+       govOpen = !govOpen;
+    case "valuesItems":
+       valuesOpen = !valuesOpen;
+    case "aboutItems":
+       aboutOpen = !aboutOpen;
+  }
+}
